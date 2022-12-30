@@ -8,6 +8,7 @@ html, body {
   position: absolute;
   left: 0;
   bottom: 0;
+  cursor: text;
 }
 #result {
   position: absolute;

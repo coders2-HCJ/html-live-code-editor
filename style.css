@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  overflow: hidden;
+}
+#editor {
+  width: 50%;
+  height: 95%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#result {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  border: none;
+  border-left: 1px solid #CCC;
+}
+#save {
+  position: absolute;
+  border: none;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  height: 5%;
+  width: 50%;
+  font-size: 200%;
+}

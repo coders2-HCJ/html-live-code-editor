@@ -1,14 +1,9 @@
-html, body {
-  margin: 0;
-  overflow: hidden;
-}
 #editor {
   width: 50%;
   height: 95%;
   position: absolute;
   left: 0;
   bottom: 0;
-  cursor: text;
 }
 #result {
   position: absolute;
@@ -19,13 +14,23 @@ html, body {
   border: none;
   border-left: 1px solid #CCC;
 }
-#save {
+#save, #reload {
   position: absolute;
+  top: 0;
   border: none;
-  background-color: gray;
+  background-color: #BBB;
   color: white;
   cursor: pointer;
   height: 5%;
-  width: 50%;
+  width: 25%;
   font-size: 200%;
+}
+#save:hover, #reload:hover {
+  background-color: gray;
+}
+#save {
+  left: 0;
+}
+#reload {
+  left: 25%;
 }

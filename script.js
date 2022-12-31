@@ -19,6 +19,7 @@ function download(filename, text) {
   element.click();
   document.body.removeChild(element);
 }
-document.getElementById("save").addEventListener("click", function() {
+document.getElementById("save").onclick = function() {
   download("program.html", editor.getValue());
-});
+};
+document.getElementById("reload").onclick = function() {showRes();};

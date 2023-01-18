@@ -14,7 +14,7 @@
   border: none;
   border-left: 1px solid #CCC;
 }
-#save, #reload {
+#save, #reload, #open {
   position: absolute;
   top: 0;
   border: none;
@@ -24,13 +24,17 @@
   height: 5%;
   width: 25%;
   font-size: 200%;
+  text-decoration: none;
 }
-#save:hover, #reload:hover {
+#save:hover, #reload:hover, #open:hover {
   background-color: gray;
 }
 #save {
   left: 0;
 }
 #reload {
+  left: 25%;
+}
+#open {
   left: 25%;
 }

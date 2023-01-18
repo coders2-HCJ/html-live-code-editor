@@ -25,6 +25,7 @@
   width: 25%;
   font-size: 200%;
   text-decoration: none;
+  text-align: center;
 }
 #save:hover, #reload:hover, #open:hover {
   background-color: gray;
